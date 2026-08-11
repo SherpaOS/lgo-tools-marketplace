@@ -131,3 +131,12 @@ Submit it to the LGO REI acquisitions team with this snapshot attached.*
 **Verdict logic:** 3–4 matrix passes with no fundamental red flags → PURSUE. Price-driven misses that clear at the repriced offer or on seller-finance terms → PURSUE ON TERMS. Too many unknowns to score honestly → GET MORE INFO (and the snapshot's job is the question list). Fundamental problems (demand, infrastructure, income can't carry any reasonable debt) → PASS.
 
 Keep the snapshot to one page. A bird dog forwards this to people with 30 seconds of attention — the verdict and the "why" in the first five lines matter more than everything below them.
+
+## Going deeper (beyond the quick screen)
+
+The snapshot is layer 1. When the user wants more, the LGO step-by-step lives in `references/`:
+
+- Read `references/underwriting-cheatsheet.md` when the user asks about the overall process ("what's next after the screen?", "what docs do I need?", financing structures, how to value the park) or when writing the "Verify Next" section and you want the 8-step frame and the expenses-up adjustments (property tax reassessment is the big one).
+- Read `references/deep-underwrite-playbook.md` when the user uploads seller documents (P&L, rent roll, occupancy reports) or asks for market research, a comp set, a normalized NOI, value-add sizing, or a pro forma. You run that pipeline yourself — extract, research with live lookups, normalize conservatively, cite every number, and always tie the model back to actual collections.
+
+Offer the deeper pass at the end of a snapshot when it earned it: a PURSUE or PURSUE ON TERMS verdict deserves "want me to run the full LGO deep-dive — market research, normalized NOI, and pro forma? Upload the seller's P&L and rent roll and I'll start." Never run the deep pipeline uninvited on a lead that failed the screen.
