@@ -1,0 +1,19 @@
+{
+  "name": "lgo-tools",
+  "owner": {
+    "name": "LGO REI / Jamie White",
+    "url": "https://s4o.ai"
+  },
+  "metadata": {
+    "description": "Free LGO REI tools for Claude. First up: the RV Park Quick Underwrite bird-dog deal screen.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "lgo-rv-underwrite",
+      "source": "./plugins/lgo-rv-underwrite",
+      "description": "RV Park Quick Underwrite — first-pass deal screen for RV parks, MHPs, and campgrounds. Interviews for ~10 inputs, runs the LGO math (implied cap, 9%-cap reprice, offer matrix, seller-finance vs SBA DSCR/CoC), scores the LGO Decision Matrix, and outputs a one-page Deal Snapshot with a go/no-go verdict.",
+      "author": { "name": "LGO REI / Jamie White" }
+    }
+  ]
+}
