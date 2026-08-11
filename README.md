@@ -6,22 +6,26 @@ Drop in a listing, an OM, or your notes from a seller call. The skill collects t
 
 This is a screen, not full underwriting — it tells you whether a deal is worth a deeper look, and a deal that fails at the asking price isn't automatically dead. Price problems can be solved with terms.
 
-## Install
+## Install — Claude Desktop / Cowork (most people)
 
-In Claude Code / Cowork:
+1. Open the **Cowork** tab in the Claude desktop app
+2. Open **Customize** (left sidebar) → **Plugins**
+3. Under **Personal plugins**, click **+** → **Add marketplace** → **Add from a repository**
+4. Enter: `SherpaOS/lgo-tools-marketplace`
+5. Click **Install** on **lgo-rv-underwrite**
+
+Then start a Cowork task, paste a park listing or your seller-call notes, and ask "worth chasing?"
+
+## Install — Claude Code (terminal users)
 
 ```
 /plugin marketplace add SherpaOS/lgo-tools-marketplace
 /plugin install lgo-rv-underwrite@lgo-tools
 ```
 
-Then just paste a park listing or your seller-call notes and ask "worth chasing?"
-
 ## Updates
 
-```
-/plugin marketplace update lgo-tools
-```
+Cowork: Customize → Plugins → update from the marketplace. Claude Code: `/plugin marketplace update lgo-tools`.
 
 When we ship improvements (and we will — this is v0.1), updating pulls them automatically.
 
