@@ -1,5 +1,7 @@
 # Get the LGO RV Park Deal Screener
 
+**🎥 Prefer to watch? [75-second video walkthrough](https://app.heygen.com/share/659e3332383b497e893acfd412849036)** — same steps as below.
+
 One-time setup. Takes about 2 minutes. You only do this once.
 
 1. **Open the Claude app on your computer.** It must be the desktop app — not the website, not your phone. Don't have it? Download it free at [claude.ai/download](https://claude.ai/download) and sign in.
