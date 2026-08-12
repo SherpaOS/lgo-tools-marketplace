@@ -1,0 +1,6 @@
+{
+  "_note": "Data for scripts/portability_lint.py. The linter contains no owner name — ship-check 2a: 'this gate must itself be operator-agnostic, or it reproduces the bug it exists to catch.'",
+  "identity": ["Jamie", "wjwhite", "letsgoowners", "Let's Go Owners", "Lumega"],
+  "_public_contact_note": "ship-check 2a: 'the plugin's public support address is fine'. A hit inside one of these is not a leak — it is how a buyer reaches support.",
+  "public_contact": ["support@lumega.ai", "https://lumega.ai", "https://s4o.ai"]
+}
