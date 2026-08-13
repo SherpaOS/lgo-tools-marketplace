@@ -1,5 +1,6 @@
 ---
 name: rv-park-quick-underwrite
+pack_version: 0.4.0
 description: First-pass deal screen for RV parks, mobile home parks, and campgrounds. Use this whenever the user mentions an RV park, RV resort, MHP, campground, or "pads/sites" deal and wants to know if it's worth pursuing — "run the numbers", "screen this lead", "is this park a deal", "underwrite this", "seller is asking $X for Y sites", or when they paste a listing, OM, or seller conversation about a park. Also use it when they just share raw park facts (site count, rents, asking price) and ask what to offer. Produces a one-page Deal Snapshot with a go/no-go verdict. This is a quick screen, not full underwriting.
 ---
 
