@@ -1,9 +1,0 @@
-{
-  "name": "lgo-rv-underwrite",
-  "version": "0.3.0",
-  "description": "RV Park Quick Underwrite \u2014 LGO REI's first-pass deal screen for RV parks, MHPs, and campgrounds. Collects the quick-screen inputs, runs the math with a bundled calculator, scores the LGO Decision Matrix, and outputs a one-page Deal Snapshot with a PURSUE / PURSUE ON TERMS / GET MORE INFO / PASS verdict. Includes the LGO 8-step cheat sheet. The full underwrite \u2014 market research, live comp set, normalized NOI, value-add sizing and pro forma \u2014 is the separate paid LGO deep-underwrite tier.",
-  "author": {
-    "name": "LGO REI / Jamie White"
-  },
-  "homepage": "https://s4o.ai"
-}

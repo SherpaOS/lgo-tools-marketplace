@@ -1,4 +1,4 @@
-# RV Park Underwriting Cheat Sheet (LGO)
+# RV Park Underwriting Cheat Sheet
 
 *From first look to submitted offer. Buy on what it does TODAY, not what it could do.*
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""LGO RV Park Quick Screen calculator.
+"""RV Park Quick Screen calculator.
 
 Runs the full first-pass math chain: gross income -> NOI -> implied cap ->
 repriced offer -> offer matrix (8/9/10% caps) with DSCR and cash-on-cash
@@ -41,7 +41,7 @@ def scenario(offer, noi, down_pct, rate, amort_years, interest_only=False):
 
 
 def main():
-    p = argparse.ArgumentParser(description="LGO RV park quick screen")
+    p = argparse.ArgumentParser(description="RV park quick screen")
     p.add_argument("--sites", type=int, required=True, help="Total sites/pads")
     p.add_argument("--occupied", type=int, required=True, help="Occupied/paying sites")
     p.add_argument("--rent", type=float, required=True, help="Avg monthly rent per occupied site")
