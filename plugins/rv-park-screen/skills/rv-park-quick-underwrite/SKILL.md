@@ -1,6 +1,6 @@
 ---
 name: rv-park-quick-underwrite
-pack_version: 0.4.0
+pack_version: 0.5.0
 description: First-pass deal screen for RV parks, mobile home parks, and campgrounds. Use this whenever the user mentions an RV park, RV resort, MHP, campground, or "pads/sites" deal and wants to know if it's worth pursuing — "run the numbers", "screen this lead", "is this park a deal", "underwrite this", "seller is asking $X for Y sites", or when they paste a listing, OM, or seller conversation about a park. Also use it when they just share raw park facts (site count, rents, asking price) and ask what to offer. Produces a one-page Deal Snapshot with a go/no-go verdict. This is a quick screen, not full underwriting.
 ---
 
@@ -51,7 +51,13 @@ what's missing, in one batch — don't drip questions.
 **Nice to have (use defaults if unknown, and say so in the snapshot):**
 - Additional income: laundry, storage, propane, store, etc.
 - Electric: included in rent or sub-metered/billed back?
-- Location + what's driving demand (highway, employer, tourism, workforce)
+- Location, and **the demand type** — who actually stays here. Pick the closest, or "mixed":
+  **workforce / man-camp** · **transient & through-traffic** · **seasonal or event-driven** ·
+  **snowbird** · **long-term affordability** · **storage-only**.
+  *This one field changes how every other number reads.* 40% winter occupancy is normal at a
+  workforce park and a broken business at a snowbird park; a $40 nightly rate is fine transient
+  and terrible for an event market. **If it's unknown, say so in the snapshot rather than
+  assuming transient** — it is the single most useful thing to establish on the next seller call.
 - Seller situation (why selling, open to terms?)
 - Market rents/occupancy at nearby comparable parks
 
