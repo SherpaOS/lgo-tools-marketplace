@@ -1,6 +1,6 @@
 {
   "name": "rv-park-screen",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "RV Park Quick Underwrite — a first-pass deal screen for RV parks, MHPs and campgrounds. Collects the few facts that matter, runs the NOI / cap / DSCR / cash-on-cash chain, scores it against a decision matrix, and produces a one-page Deal Snapshot with a PURSUE / PURSUE ON TERMS / GET MORE INFO / PASS verdict. Operator-agnostic: every default is adjustable and the acquisitions destination resolves per owner — nothing is hardcoded to the publisher. A screen, not full underwriting. Directional only — not financial advice.",
   "author": {
     "name": "Sherpa OS",
